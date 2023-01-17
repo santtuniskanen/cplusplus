@@ -1,0 +1,3 @@
+C:/cplusplus/homework2/pre_exercises/vehicle/cmake-build-debug/CMakeFiles/vehicle.dir
+C:/cplusplus/homework2/pre_exercises/vehicle/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/cplusplus/homework2/pre_exercises/vehicle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

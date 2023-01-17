@@ -1,0 +1,3 @@
+C:/cplusplus/homework2/pre_exercises/apartment/cmake-build-debug/CMakeFiles/apartment.dir
+C:/cplusplus/homework2/pre_exercises/apartment/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/cplusplus/homework2/pre_exercises/apartment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
