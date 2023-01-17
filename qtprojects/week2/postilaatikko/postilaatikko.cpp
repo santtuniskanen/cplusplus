@@ -1,9 +1,26 @@
+#include "postilaatikko.h"
 #include <iostream>
 
-using namespace std;
+Postilaatikko::Postilaatikko() {
 
-int main()
-{
-    cout << "Hello World!" << endl;
-    return 0;
+}
+
+Postilaatikko::~Postilaatikko() {
+    std::cout << "Destructor..." << std::endl;
+}
+
+void Postilaatikko::lisaaPosti(int a) {
+
+}
+
+void Postilaatikko::otaPosti(int lkm) {
+
+}
+
+void Postilaatikko::asetaNimi(std::string) {
+
+}
+
+std::string Postilaatikko::palautaNimi() {
+
 }
