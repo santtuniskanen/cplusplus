@@ -1,0 +1,4 @@
+#ifndef POSTILAATIKKO_H
+#define POSTILAATIKKO_H
+
+#endif // POSTILAATIKKO_H
