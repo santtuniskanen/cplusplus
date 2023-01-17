@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/cplusplus/lecture_exercises/week2/cmake-build-debug/
 
 build cmake_object_order_depends_target_week2: phony || CMakeFiles/week2.dir
 
-build CMakeFiles/week2.dir/main.cpp.obj: CXX_COMPILER__week2_Debug C$:/cplusplus/lecture_exercises/week2/main.cpp || cmake_object_order_depends_target_week2
-  DEP_FILE = CMakeFiles\week2.dir\main.cpp.obj.d
+build CMakeFiles/week2.dir/postilaatikko.cpp.obj: CXX_COMPILER__week2_Debug C$:/cplusplus/lecture_exercises/week2/postilaatikko.cpp || cmake_object_order_depends_target_week2
+  DEP_FILE = CMakeFiles\week2.dir\postilaatikko.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\week2.dir
   OBJECT_FILE_DIR = CMakeFiles\week2.dir
@@ -63,7 +63,7 @@ build CMakeFiles/week2.dir/main.cpp.obj: CXX_COMPILER__week2_Debug C$:/cplusplus
 #############################################
 # Link the executable week2.exe
 
-build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/main.cpp.obj
+build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/postilaatikko.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\week2.dir
