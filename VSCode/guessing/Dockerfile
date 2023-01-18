@@ -7,7 +7,7 @@ RUN apt-get -y update && apt-get install -y
 # Install the Clang compiler
 RUN apt-get -y install clang
 
-# Copy the current folder which contains C++ source code to the Docker image under /usr/src
+# Copy the current folder which contains C++ source code to the Docker image
 COPY . C:\cplusplus\VSCode\guessing\guessing.cpp
 
 # Specify the working directory
