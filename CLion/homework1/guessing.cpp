@@ -27,7 +27,7 @@ int game(int max_num) {
      application pretty useless.
     */
     srand(time(nullptr));
-    random_num = rand() % max_num;
+    random_num = rand() % max_num + 1;
     // std::cout << random_num << std::endl; // for debugging purposes!
 
     // do...while loop
