@@ -5,7 +5,8 @@
 #include "chef.h"
 
 // Creating the Chef Constructor definition
-Chef::Chef(std::string chefName):name(chefName){
+Chef::Chef(std::string chefName){
+    name = chefName;
     std::cout << "Chef " << name << " Constructor." << std::endl;
 }
 // Chef class Destructor

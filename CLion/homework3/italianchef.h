@@ -11,7 +11,11 @@
 class ItalianChef:public Chef {
 public:
     ItalianChef(std::string chefName=""); // Constructor for ItalianChef
+    ItalianChef(std::string chefName="", int water = 0, int flour = 0);
     std::string getName(); // Function to get the name of the chef
     void makePasta(); // Pasta making function for the italian chef.
+private:
+    int water;
+    int flour;
 };
 #endif //HOMEWORK3_ITALIANCHEF_H

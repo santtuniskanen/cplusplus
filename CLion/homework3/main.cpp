@@ -5,7 +5,7 @@ int main() {
     Chef chef("John Doe");
     chef.makeSoup();
     chef.makeSalad();
-    ItalianChef italian_chef("Jane Doe");
-    italian_chef.makePasta();
+    ItalianChef chef1("Jane Doe", 10, 500);
+    chef1.makePasta();
     return 0;
 }
