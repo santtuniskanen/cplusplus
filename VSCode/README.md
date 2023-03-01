@@ -1,1 +1,0 @@
-# C++ in VSCode using Docker
