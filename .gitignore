@@ -153,4 +153,5 @@ fabric.properties
 CMakeLists.txt
 CMakeCache.txt
 
-# Text files
+# Ignore all text files
+*.txt
